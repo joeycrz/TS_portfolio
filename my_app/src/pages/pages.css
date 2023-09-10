@@ -1,0 +1,32 @@
+.descriptionH{
+    text-align: center;
+    font-weight:800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    padding: 10px;
+}
+
+
+.profilePic {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/me.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30% ;
+        
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .profilePic:hover{
+    width: 500px;
+    height: 600px;
+} */
+

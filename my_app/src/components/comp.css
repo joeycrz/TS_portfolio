@@ -1,0 +1,14 @@
+.text{
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navColor{
+    color:black
+}
+.cc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
