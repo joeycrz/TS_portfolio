@@ -25,6 +25,53 @@
     align-items: center;
     
 }
+.hobbyH{
+    text-decoration: underline;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hobbyText{
+    color: antiquewhite;
+    font-size: 20px;
+    
+}
+.musicH{
+    text-decoration: underline;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: auto;
+    max-width: 70%;
+
+}
+.generalText{
+    color: azure;
+}
+.sectionBack{
+   
+    border-radius: 3%;
+    padding: 5px;
+    
+}
+.Alink{
+    color: azure;
+    text-decoration: underline;
+    
+}
+.Alink:visited{
+    color: cyan;
+    
+    
+}
 /* .profilePic:hover{
     width: 500px;
     height: 600px;
