@@ -12,8 +12,8 @@ export function Navbar() {
                     <Nav.Link to="/projects" as={NavLink}>
                         <div className='text'>Projects</div>
                     </Nav.Link>
-                    <Nav.Link to="/socials" as={NavLink}>
-                        <div className='text'>Socials</div>
+                    <Nav.Link to="/aboutme" as={NavLink}>
+                        <div className='text'>About Me</div>
                     </Nav.Link>
                 </Nav>
 

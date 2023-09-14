@@ -4,7 +4,7 @@
     font-family: Imported;
 }
 .description {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: ubuntu;
     color: azure;
     padding-left: 5px;
     padding-right: 5px;
@@ -12,19 +12,35 @@
 }
 
 .box{
-    margin: auto;
+    padding: 1%;
+    font-family: ubuntu;
     
 }
 
 .projects{
-    text-indent: 50px;
+    padding-left: 3% ;
+    font-family: ubuntuBold;
+    font-weight: 500;
+    
+    font-size: 18px;
 }
 
 .projectDetails{
-    text-indent: 100px;
-    padding-bottom: 5px;    
-    
+    padding-left: 15%;
+    padding-bottom: 5px;   
+    width: auto; 
+    font-family: ubuntu;
+    font-size: 15px;
+
 }
+h6{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    padding-bottom: 5px;
+}
+
 
 .profilePic {
     width: 400px;
@@ -77,25 +93,7 @@
     align-items: center;
     width: 500px;
 }
-.hobbyH{
-    text-decoration: underline;
-    color: azure;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hobbyText{
-    color: antiquewhite;
-    font-size: 20px;
-    
-}
-.musicH{
-    text-decoration: underline;
-    color: azure;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .introduction{
     color: antiquewhite;
     display: flex;
@@ -108,11 +106,17 @@
 .generalText{
     color: azure;
 }
+.projectCategory{
+    font-size: 30px;
+}
 .sectionBack{
     border-radius: 3%;
     padding: 5px;
 }
-
+.aboutme{
+    font-size: 20px;
+    padding-bottom: 12px;
+}
 .Alink{
     color: azure;
     text-decoration: underline;
@@ -133,6 +137,24 @@
   
   .imported {
     font-family: Imported;
+  }
+
+  @font-face {
+    font-family: ubuntu;
+    src: url(/src/fonts/ubuntu/Ubuntu-Medium.ttf);
+  }
+  
+  .ubuntu {
+    font-family: ubuntu;
+  }
+
+  @font-face {
+    font-family: ubuntuBold;
+    src: url(/src/fonts/ubuntu/Ubuntu-Bold.ttf);
+  }
+  
+  .ubuntuBold {
+    font-family: ubuntuBold;
   }
 /* .profilePic:hover{
     width: 500px;
