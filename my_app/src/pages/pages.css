@@ -11,6 +11,20 @@
     max-width: 1600px;
 }
 
+.box{
+    margin: auto;
+    
+}
+
+.projects{
+    text-indent: 50px;
+}
+
+.projectDetails{
+    text-indent: 100px;
+    padding-bottom: 5px;    
+    
+}
 
 .profilePic {
     width: 400px;
