@@ -1,10 +1,10 @@
 .text{
-    color: azure;
+    color: black;
     font-weight: bold;
     font-size: 20px;
 }
 .navColor{
-    color:black
+    color:whitesmoke
 }
 .cc{
     display: flex;

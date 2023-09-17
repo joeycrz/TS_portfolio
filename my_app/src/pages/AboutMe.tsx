@@ -11,7 +11,6 @@ export function AboutMe() {
                     <p className="ubuntu aboutme">To anyone taking the time to learn a bit about me, welcome! My name is Joey Cruz,
                         I was born and raised in South Texas. I am part of a loving family of 7, of which I have 2 amazing parents and 4 ok sisters.
                         I have also been blessed to have an amazing girlfriend of 4 years, and the same group of close friends for 12+ years.
-
                     </p>
                 </Row>
                 <Row className='mb-3'>

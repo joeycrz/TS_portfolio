@@ -1,24 +1,18 @@
 import { Container, Col, Row, Image, Button, Modal, ModalProps } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/js/src/modal'
-import './pages.css';
 import me from '../images/me.png';
 import { useState } from 'react'
 import resume1 from '../images/resume_NoMargin - Copy-1.png';
-
 import { SocialIcon } from 'react-social-icons';
 import React from 'react';
 
 export function Home() {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    
     return (
         <Container fluid>
             <Row className='mb-3'>
                 <Container className='cc1'>
-                    <img src={me} className='profilePic'/>
+                    {/* <img src={me} className='profilePic'/> */}
+                    <div className='profilePic'></div>
                 </Container>
 
             </Row>
@@ -35,22 +29,10 @@ export function Home() {
                 </Container>
             </Row>
             <Row className='mb-3'>
-                <Container className='resumeButtonCont'>
-                    <div className='cc'>
-                        <button data-bs-toggle="modal" data-bs-target="#imageExample">Resume</button>
-                    </div>
-
-
-                    <div className='modal fade' id='imageExample' tabIndex={-1} aria-hidden='true'>
-                        <div className='modal-dialog'>
-                            <div className='modal-content resumeCont'>
-                                <div className='modal-body '>
-                                    <button type='button' className='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
-                                    <img src={resume1} className='d-block resume ' />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <Container className='cc resumeButton'>
+                    <a href='/resume'>
+                    <button >Resume</button>
+                    </a>
                 </Container>
             </Row>
             <Row >

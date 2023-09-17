@@ -8,6 +8,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="My online web portfolio!" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -38,22 +39,59 @@
     }
 
     @media screen and (min-width: 601px) {
-      div.example2 {
+      div.header {
+        font-size: 25px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.header {
+        font-size: 15px;
+      }
+    }
+ 
+    @media screen and (min-width: 601px) {
+      h6.projectTitle {
         font-size: 20px;
       }
     }
 
     @media screen and (max-width: 600px) {
-      div.example2 {
+      h6.projectTitle {
+        font-size: 16px;
+      }
+    }
+
+    @media screen and (min-width: 601px) {
+      ul.projectContent {
         font-size: 18px;
       }
     }
+
+    @media screen and (max-width: 600px) {
+      ul.projectContent {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (min-width: 601px) {
+      h5.projectCategory {
+        font-size: 30px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h5.projectCategory {
+        font-size: 22px;
+      }
+    }
+
 
     
   </style>
 </head>
 
-<body class="bg-dark">
+<body style="background-color: burlywood;">
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
  
