@@ -21,7 +21,7 @@ export function Home() {
                     <div className='description example'>
                         <h3 className='descriptionH'>Welcome to my portfolio!</h3>
                         <p>Hello! My name is Jose Cruz, but my friends call me Joey, I
-                            am currently a senior studying computer science at the University of Texas
+                            am currently a senior in my last semester studying computer science at the University of Texas
                             Rio Grande Valley. Feel free to explore the page and check out any information provided.
                             Below you will find my resume and links to my socials!
                         </p>
